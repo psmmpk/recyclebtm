@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- wajib ade 3 benda ni -->
+<link href="css/jquery.mobile.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+<!-- --------- -->
+
+</head>
+
+<body>
+<!--PAGE UTAMA -->
+<div data-role="page" id="page_utama">
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<center>
+	<br/>
+	<h3>SELAMAT DATANG KE DIREKTORI PPSPPA</h3>
+	<img src="image/phone.png"/>
+	<br/><br/>
+	<a href="#page_misi" class="ui-btn ui-btn-inline">VISI & MISI</a>
+	<a href="#page_cari" class="ui-btn ui-btn-inline">DIREKTORI</a>
+	<a href="#popup1" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">TESTING POPUP</a>
+	</center>
+  </div>
+
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+  <h3>azmira @ www.ppsppa.gov.my</h3>
+  </div>
+ 
+  <!--footer --> 
+  <div data-role="popup" id="popup1">
+	<p>This is a completely basic popup, no options set.</p>
+  </div>
+  
+</div>
+
+<!--Page Misi Visi -->
+<div data-role="page" id="page_misi">
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Utama">
+	<h3>VISI & MISI</h3>
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<center>
+	<div data-role="collapsible" data-content-theme="false">
+		<h4>Visi</h4>
+		<p>Menjadikan Malaysia sebuah negara bersih dan sejahtera</p>
+	</div>
+	<div data-role="collapsible" data-content-theme="false">
+    <h4>Misi</h4>
+		<p>I'm the collapsible content without a theme.</p>
+	</div>
+	</center>
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+  <h3>azmira @ www.ppsppa.gov.my</h3>
+  </div>
+
+</div>
+
+<!--Page Cari -->
+<div data-role="page" id="page_cari">
+	<!--header -->
+  <div data-role="header" data-position="fixed">
+	<h3>E-DIRECTORY</h3>
+	
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+	<center>
+	<br/>
+	<h3>SEARCH</h3>
+	
+	</center>
+  </div>
+  
+  <!--footer -->
+  <div data-role="footer" data-position="fixed">
+  <h3>azmira @ www.ppsppa.gov.my</h3>
+  </div>
+
+</div>
+
+
+</body>
+</html>
+
